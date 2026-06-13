@@ -18,7 +18,7 @@ body{
 
 .nav1{
 
-border-bottom: 2px #1E2939 solid;
+border-bottom: 2px rgba(201, 254, 28, 0.486) solid;
 background-color: black;
 }
 
@@ -41,6 +41,7 @@ background-color: black;
     font-weight: 700;
     line-height:24px ;
     color: black !important;
+
 }
 
 .btn1:hover{
@@ -48,4 +49,150 @@ background-color: black;
     color: black !important;
 }
 
-/* end of navbar */
+/* END OF NAVBAR */
+
+/* START OF HEADER SECTION */
+header{
+
+    background: rgba(0, 0, 0, 0.842) url(/Images/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+}
+.mainpic img{
+height: 100%;
+width: 100%;
+}
+.mainpic{
+    box-sizing: border-box;
+    height: 50%;
+    width: 90%;
+    border: #A2F449 4px solid !important;
+}
+header .pictag{
+    height: 75px;
+    width: 150px;
+    bottom: -25px;
+    left: -50px;
+
+
+}
+
+.pictag p{
+    font-size: 12px;
+    font-weight:400;
+    line-height: 16px;
+    color: oklch(0.707 0.022 261.325);
+        padding: 0;
+    margin: 0;
+}
+.pictag span{
+    font-size: 20px;
+    font-weight:700;
+    line-height: 28px;
+    color: rgb(241, 241, 241);
+        padding: 0;
+    margin: 0;
+}
+
+.hdrightside h1{
+    font-family: "Days One", sans-serif;
+    font-size: 60px;
+    font-weight:700;
+    line-height: 75px;
+    color: rgb(241, 241, 241);
+
+}
+.hdrightside h1 span{
+    font-family: "Days One", sans-serif;
+    font-size: 60px;
+    font-weight:700;
+    line-height: 75px;
+    color: rgb(203, 254, 28);
+}
+.hdrightside p{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 26px;
+    color: oklch(0.872 0.01 258.338);
+}
+.btn2, .btn3{
+    /* width: 220px; */
+    height: 60px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    font-weight:700;
+    line-height: 24px;
+    color: rgb(203, 254, 28);
+}
+.btn2{
+    color: black;
+    background-color: #CBFE1C;
+}
+.btn2:hover{
+    color: #000;
+    background-color: #A6CB16;
+}
+.btn3{
+    background-color: #000000;
+    border: #A6CB16 2px solid ;
+        position: relative;
+        
+}
+.btn3:hover{
+    color: #000;
+    background-size: 400%;
+    background-color: #A6CB16;
+    border: none;
+
+}
+.gloss{
+    position: relative;
+    overflow: hidden;
+    z-index: 4;
+}
+.gloss1{
+    position: relative;
+    overflow: hidden;
+    z-index: 4;
+}
+.gloss::before{
+    content: '';
+    height: 80px;
+    width: 20px;
+    background-color: rgba(248, 248, 255, 0.411);
+    box-shadow: 0 0 40px #fff;
+    filter: blur(2px);
+    opacity: .9;
+    position: absolute;
+    top: -10px;
+    transition: 1.7s;
+    transform: translatex(-40px);
+    z-index: 3;
+}
+
+.gloss:hover::before{
+    transform: translateX(800px);
+}
+.gloss1::before{
+    content: '';
+    height: 80px;
+    width: 20px;
+    background-color: rgba(248, 248, 255, 0.411);
+    box-shadow: 0 0 40px #fff;
+    filter: blur(2px);
+    opacity: .9;
+    position: absolute;
+    top: -10px;
+    transition: 1.7s;
+    transform: translatex(-40px);
+    z-index: 3;
+}
+
+.gloss1:hover::before{
+    transform: translateX(430px);
+}
+
+/*  END OF HEADER SECTION */
