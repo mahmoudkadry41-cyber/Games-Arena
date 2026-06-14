@@ -370,3 +370,128 @@ transition: .7s;
         top: 0;
     }
     /*  END OF LATEST GAMES  */
+
+    /* START OF SERVICES */
+
+    #services h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(203, 254, 28) !important;
+    position: relative;
+    margin-top: 80px;
+    
+}
+#services h2::after{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background-image: linear-gradient(to right, #CBFE1C, #c9fe1c00  );
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+#services h2::before{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background-image: linear-gradient(to left, #CBFE1C, #c9fe1c00  );
+    position: absolute;
+    top: 10px;
+    right: 110px;
+}
+
+#services .wdwdp1{
+    font-family: "Days One", sans-serif;
+    font-size:48px ;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(241, 241, 241);
+}
+#services .wdwdp2{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(241, 241, 241);
+}
+#services .wdwdp2 span{
+    color: rgb(203, 254, 28);
+}
+
+.service, .service2{
+    width: 250px;
+    height: 250px;
+    background-color:#1A1A1A;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+    margin-right: 40px;
+}
+.service2 img{
+    width: 100%;
+    height: 100%;
+}
+.service:hover{
+    border: #cbfe1c 2px solid !important;
+}
+.service:hover .serviceicon i{
+    color: #000 !important;
+}
+.serviceicon{
+    transition: .7s;
+}
+.serviceicon i{
+    transition: .7s;
+}
+.service:hover .serviceicon {
+    background-color: #cbfe1c !important;
+}
+.service::after{
+content: "";
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  width: 40px;
+  height: 40px;
+  background-color:  rgb(203, 254, 28); 
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  transition: .5s;
+}
+.service::before{
+content: "";
+  position: absolute;
+  bottom: -20%;
+  right: -20%;
+  width: 40px;
+  height: 40px;
+  background-color:  rgb(203, 254, 28); 
+  clip-path: polygon(100% 0, 100% 100%, 0 100%); 
+  transition: .5s;
+
+}
+.service:hover::before{
+    bottom: 10px;
+  right: 10px;
+}
+.service:hover::after{
+    top: 10px;
+  left: 10px;
+}
+.service img{
+    width: 100%;
+    height: 100%;
+}
+
+.service .serviceicon{
+    width: 70px;
+    height: 70px;
+    background-color: #1E2939;
+}
+.servicep{
+    font-family: "Days One", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: rgb(241, 241, 241);
+}
