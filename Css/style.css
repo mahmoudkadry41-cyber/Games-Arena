@@ -20,6 +20,7 @@ body{
 
 border-bottom: 2px rgba(201, 254, 28, 0.486) solid;
 background-color: black;
+z-index: 900;
 }
 
 .nav1 i {
@@ -75,7 +76,7 @@ header .pictag{
     width: 150px;
     bottom: -25px;
     left: -50px;
-
+background-color: #0B0E13;
 
 }
 
@@ -186,13 +187,186 @@ header .pictag{
     opacity: .9;
     position: absolute;
     top: -10px;
-    transition: 1.7s;
+    transition: .7s;
     transform: translatex(-40px);
     z-index: 3;
 }
 
 .gloss1:hover::before{
-    transform: translateX(430px);
+    transform: translateX(50px);
 }
 
 /*  END OF HEADER SECTION */
+
+/* START OF MAIN */
+/* START OF LATEST GAMES */
+#carouselExample{
+    height: 500px;
+}
+
+#latest-games h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(203, 254, 28) !important;
+    position: relative;
+    margin-top: 80px;
+    
+}
+#latest-games h2::after{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background-image: linear-gradient(to right, #CBFE1C, #c9fe1c00  );
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+#latest-games h2::before{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background-image: linear-gradient(to left, #CBFE1C, #c9fe1c00  );
+    position: absolute;
+    top: 10px;
+    right: 110px;
+}
+#latest-games p{
+    font-family: "Days One", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(241, 241, 241);
+}
+
+.btnslider{
+border-radius: 50%;
+border:  #99a1af 2px solid;
+background-color:#0B0E13;
+height: 50px;
+width: 50px;
+transition: .7s;
+}
+.carousel-control-next-icon{
+    background-color: red;
+}
+
+.btnslider:hover {
+    border:#CBFE1C 2px solid;
+}
+
+.btnslider i{
+    transition: .7s;
+}
+.btnslider:hover i{
+    color:#CBFE1C !important;
+}
+
+.btn4{
+    /* width: 220px; */
+    height: 70px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 18px;
+    font-weight:700;
+    line-height: 28px;
+    transition: .7s;
+    border: black 2px solid;
+}
+.btn4{
+    color:#CBFE1C;
+    background-color:black;
+    border:#CBFE1C 2px solid;
+}
+.btn4:hover{
+    color:black;
+    background-color:#CBFE1C;
+    border:#CBFE1C 2px solid;
+}
+
+.gloss3::before{
+    content: '';
+    height: 80px;
+    width: 20px;
+    background-color: rgba(248, 248, 255, 0.411);
+    box-shadow: 0 0 40px #fff;
+    filter: blur(2px);
+    opacity: .9;
+    position: absolute;
+    top: -10px;
+    transition: .7s;
+    transform: translatex(-40px);
+    z-index: 3;
+}
+.gloss3{
+    position: relative;
+    overflow: hidden;
+    z-index: 
+}
+.gloss3:hover::before{
+    transform: translateX(250px);
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    transition: transform .7s;
+
+}
+.game{
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .7s;
+    width: 30%;
+    border: none;
+    position: relative;
+}
+
+.game:hover {
+   border: #CBFE1C 3px solid;   
+
+}
+.game:hover img{
+    transform: scale(110%);
+    
+}
+
+.gameinfo{
+    height: 25%;
+    position: absolute;
+    background-image: linear-gradient(to top, #CBFE1C, #c9fe1c00  );
+    bottom: -25%;
+    transition: .5s;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 18px;
+    line-height:28px ;
+    font-weight: 700;
+    padding: 20px;
+    color: rgb(11, 14, 19);
+   }
+   .game:hover .gameinfo{
+
+    bottom: 0;
+}
+.gametype{
+    height: 25%;
+    position: absolute;
+    top: -25%;
+    transition: .5s;
+    padding: 20px;
+    }
+    .gametype1{
+        height: 20px;
+        background-color:rgba(0, 0, 0, 0.205);
+        backdrop-filter: blur(1px);
+    }
+    .gametype span{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        color: rgb(241, 241, 241);
+    }
+
+    .game:hover .gametype{
+        top: 0;
+    }
+    /*  END OF LATEST GAMES  */

@@ -21,7 +21,7 @@
 
 <body>
     <!-- Nav Bar -->
-    <nav class=" position-fixed navbar navbar-expand-lg  container-fluid border-2 nav1 z-5">
+    <nav class=" position-fixed navbar navbar-expand-lg  container-fluid border-2 nav1">
         <div class="container navbar bg-black">
             <div class="container-fluid">
                 <img class="gamearenaimg" src="./Images/icons/svgexport-1.png" alt="">
@@ -66,9 +66,10 @@
 
     <!-- start of HEADER -->
 
-    <header class="container-fluid  min-vh-100 float-sm-start d-flex ">
+    <header class="container-fluid  min-vh-100  border border-1 border-dark d-flex">
         <div class="mt-5  gap-sm-5 gap-lg-0 container mb-5 mt-5 w-100 d-flex flex-lg-row flex-column col-12 ">
-            <div class="mt-5  hdrightside gap-lg-0 gap-5 d-flex flex-column align-items-lg-start align-items-center justify-content-center text-lg-start text-center col-lg-6 col-12 ">
+            <div
+                class="mt-5  hdrightside gap-lg-0 gap-5 d-flex flex-column align-items-lg-start align-items-center justify-content-center text-lg-start text-center col-lg-6 col-12 ">
                 <h1>THE ULTIMATE<br><span>GAMING</span><br>EXPERIENCE</h1>
                 <p>Join millions of gamers worldwide in the most competitive eSports tournaments. Experience next-level
                     gaming with
@@ -92,7 +93,7 @@
                 <div class="mainpic  border border-4 rounded-4 position-relative"> <img class="rounded-4"
                         src="./Images/hero-img.png" alt="">
                     <div
-                        class=" p-3 pictag bg-dark position-absolute rounded-2 border border-2 border-light d-flex flex-row align-items-center justify-content-center ">
+                        class=" p-3 pictag  position-absolute rounded-2 border border-2 border-light d-flex flex-row align-items-center justify-content-center ">
 
                         <i class="fa-solid fa-trophy fa-1x" style=" font-size: x-large; color: hsl(74, 99%, 55%);"></i>
                         <div class="  d-flex flex-column align-items-center align-content-center w-75">
@@ -108,7 +109,226 @@
         </div>
     </header>
 
-<!-- END OF HEADER SECTION -->
+    <!-- END OF HEADER SECTION -->
+    <!-- START OF MAIN  -->
+    <main class="container-fluid bg-black min-vh-100">
+
+        <!-- START OF LATEST GAMES -->
+        <section id="latest-games"
+            class=" position-relative bg-black container-fluid min-vh-100 d-flex flex-column justify-content-around align-items-center">
+            <div class="d-flex flex-column justify-content-around align-items-center">
+            <h2 class="text-center">OUR GAMES</h2>
+            <p>Our Latest Games</p>
+        </div>
+            
+
+            <div id="carouselExample"
+                class="w-100 carousel slide d-flex flex-column justify-content-around align-items-center gap-3">
+                <div class="carousel-inner h-100 ">
+                    <div class="carousel-item active w-100 h-100">
+                        <div
+                            class="bg-black h-100 d-block w-100 d-flex flex-row flex flex-wrap align-items-center justify-content-around">
+                            <div class="game container-fluid  h-75  m-0 p-0">
+
+                                <img src="./Images/latest-games-1.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div
+                                        class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-gamepad fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>ADVENTURE</span>
+                                    </div>
+
+                                    <div
+                                        class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-users fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>MULTIPLAYER</span>
+                                    </div>
+
+
+                                </div>
+                                <div class="w-100 gameinfo">Alien Companions</div>
+                            </div>
+                            <div class="game container-fluid  h-75  m-0  p-0">
+                                <img src="./Images/latest-games-2.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-flag-checkered fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>RACING</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-bolt fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>SCI-FI</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">Cyber Run 2099</div>
+                            </div>
+                            <div class="game container-fluid  h-75  m-0 p-0">
+                                <img src="./Images/latest-games-3.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-discord fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>ACTION</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-microchip fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>GEFORCE</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">The Legend of Zelda: Tears of the Kingdom</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active w-100 h-100">
+                        <div
+                            class="bg-black h-100 d-block w-100 d-flex flex-row flex flex-wrap align-items-center justify-content-around">
+                            <div class="game container-fluid  h-75  m-0 p-0">
+                                <img src="./Images/latest-games-4.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-shield-halved fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>RPG</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-wand-magic-sparkles fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>FANTASY</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">Aetheria Chronicles</div>
+                            </div>
+                            <div class="game container-fluid  h-75  m-0 p-0">
+                                <img src="./Images/latest-games-5.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-crosshairs fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>SHOOTER</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-user-group fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>CO-OP</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">Warfront Protocol</div>
+                            </div>
+                            <div class="game container-fluid  h-75  m-0 p-0">
+                                <img src="./Images/latest-games-6.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-futbol fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>FOOTBALL</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-dragon fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>FANTASY</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">Shot Striker</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active w-100 h-100">
+                        <div
+                            class="bg-black h-100 d-block w-100 d-flex flex-row flex flex-wrap align-items-center justify-content-around">
+                            <div class="game container-fluid  h-75  m-0 p-0">
+                                <img src="./Images/latest-games-7.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-trophy fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>SPORTS</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-fire fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>LEAGUE</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">Epic Gaming League</div>
+                            </div>
+                            <div class="game container-fluid  h-75  m-0 p-0">
+                                <img src="./Images/latest-games-8.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-rocket fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>SPACE</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-globe fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>EXPLORATION</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">Barren alien worlds</div>
+                            </div>
+                            <div class="game container-fluid  h-75  m-0 p-0">
+                                <img src="./Images/latest-games-9.png" alt="">
+                                <div class="w-100 gametype d-flex gap-3">
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-gamepad fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>ACTION</span>
+                                    </div>
+                                
+                                    <div class="gametype1 p-2  rounded-pill p-0 d-flex flex-row align-items-center justify-content-center ">
+                                        <i class="fa-solid fa-hat-wizard fa-sm me-2" style="color: #cbfe1c;"></i>
+                                        <span>FUTURISTIC</span>
+                                    </div>
+                                
+                                
+                                </div>
+                                <div class="w-100 gameinfo">Cloveland Quest</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row gap-3 justify-content-center align-items-center">
+                    <button class="btnslider" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <i class="fa-solid fa-arrow-left fa-xl" style="color: #99a1af;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="btnslider " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <i class=" fa-solid fa-arrow-right fa-xl" style="color: #99a1af;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="gloss3">
+                        <button type="button" class=" col-12 btn4 btn text-capitalize rounded-3">VEIW ALL GAMES</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- END OF LATEST GAMES -->
+        <!-- START OF SERVICES -->
+        <!-- END OF SERVICES -->
+        <!-- START OF GAMES -->
+        <!-- END OF GAMES -->
+        <!-- START OF OUR TEAM -->
+        <!-- END OF OUR TEAM -->
+        <!-- START OF GET IN TOUCH -->
+        <!-- END OF GET IN TOUCH -->
+
+
+    </main>
+    <!-- END OF MAIN -->
+    <!-- START OF FOOTER -->
+    <!-- END OF FOOTER -->
 
     <script src="./Js/bootstrap.min.js"></script>
 </body>
