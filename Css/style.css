@@ -200,8 +200,19 @@ background-color: #0B0E13;
 
 /* START OF MAIN */
 /* START OF LATEST GAMES */
+#latest-games{
+   min-height: 100vh;
+}
 #carouselExample{
     height: 500px;
+}
+#carouselExample1{
+    height: 500px;
+}
+#carouselExample2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
 }
 
 #latest-games h2{
@@ -300,7 +311,7 @@ transition: .7s;
 .gloss3{
     position: relative;
     overflow: hidden;
-    z-index: 
+    
 }
 .gloss3:hover::before{
     transform: translateX(250px);
@@ -312,14 +323,31 @@ transition: .7s;
     transition: transform .7s;
 
 }
-.game{
+#carouselExample .game{
     border-radius: 12px;
     overflow: hidden;
-    transition: .7s;
     width: 30%;
+    transition: .7s;
     border: none;
     position: relative;
 }
+#carouselExample1 .game{
+    border-radius: 12px;
+    overflow: hidden;
+    width: 45%;
+    transition: .7s;
+    border: none;
+    position: relative;
+}
+#carouselExample2 .game{
+    border-radius: 12px;
+    overflow: hidden;
+    width: 90%;
+    transition: .7s;
+    border: none;
+    position: relative;
+}
+
 
 .game:hover {
    border: #CBFE1C 3px solid;   
@@ -420,13 +448,12 @@ transition: .7s;
 }
 
 .service, .service2{
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     background-color:#1A1A1A;
     position: relative;
     overflow: hidden;
     transition: .5s;
-    margin-right: 40px;
 }
 .service2 img{
     width: 100%;
@@ -517,6 +544,7 @@ content: "";
     width: 100%;
     overflow: hidden;
     mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+
 }
 .carousel1:hover img{
     filter: grayscale(.8);
@@ -580,7 +608,7 @@ animation-play-state: paused;
 /* END OF GAMES */
 /* START OF OUR TEAM */
 #our-team{
-    height: 1100px;
+    height: auto;
 }
 
     #our-team h2{
@@ -629,7 +657,8 @@ animation-play-state: paused;
  }
 
  .ommc{
-    height: 830px;
+    height: auto;
+    padding-bottom: 50px;
  }
 
  .omcard{
@@ -720,8 +749,9 @@ top: -100%;
 /* END OF OUR TEAM */
 /* START OF GET IN TOUCH */
 #getintouch{
-    height: 1300px;
+    height: auto;
     background-color: #0E131E;
+    padding-bottom: 50px;
 }
 
  #getintouch h2{
@@ -912,9 +942,7 @@ color: rgb(155, 144, 144);
 /* END OF GET IN TOUCH */
 /* END OF MAIN */
 /* START OF FOOTER */
-#footer{
 
-}
 .upper{
     padding: 50px;
     border-bottom: #99a1af4d 1px solid;
@@ -956,7 +984,7 @@ color: rgb(155, 144, 144);
 }
 
 .lower{
-    height: 70px;
+    height: auto;
     padding: 0 50px ;
 }
 .lower div{

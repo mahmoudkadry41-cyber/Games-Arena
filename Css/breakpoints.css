@@ -1,0 +1,73 @@
+/* sm: من 576px وفوق */
+@media screen and (max-width: 767px) {
+.service, .service2{
+    width: 170px;
+    height: 170px;
+    background-color:#1A1A1A;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+.omcard{
+    width: 100%;
+    height: 365px;
+    border-radius: 15px;
+    overflow: hidden;
+ }
+.gitmb{
+    display: flex;
+    flex-direction: column !important;
+    gap: 30px;
+
+}
+ .ourdtls, .cntctus{
+    width: 100%;
+    height: 1100px;
+    
+ }
+ .nflnm{
+    display: flex;
+    flex-direction: column !important;
+    gap: 30px;
+ }
+  .flname{
+    width: 100%;
+
+  }
+
+  .upper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .lower{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+/* md: من 768px وفوق */
+@media screen and (min-width: 768px) {
+
+}
+
+/* lg: من 992px وفوق */
+@media screen and (min-width: 992px) {
+
+}
+
+/* xl: من 1200px وفوق */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* xxl: من 1400px وفوق */
+@media screen and (min-width: 1400px) {
+
+}
