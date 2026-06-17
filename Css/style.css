@@ -1,11 +1,19 @@
 
-
+html{
+    scroll-behavior: smooth;
+}
 body{
   font-family: "Chakra Petch", sans-serif;
 }
-
+::selection{
+    color: black;
+    background-color:  rgb(203, 254, 28);
+}
 .mainfont-color {
   color: rgb(203, 254, 28) !important;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
 }
 .navbarlinkscolor{
     color: #F1F1F1 !important;
@@ -15,12 +23,19 @@ body{
     width: 25px;
     margin: 0 10px;
 }
-
+#latest-games:target nav-item{
+    background-color: #24E071 !important;
+}
 .nav1{
 
 border-bottom: 2px rgba(201, 254, 28, 0.486) solid;
 background-color: black;
 z-index: 900;
+scroll-target-group: auto;
+
+}
+a:target-current{
+    color: rgb(203, 254, 28) !important;
 }
 
 .nav1 i {
