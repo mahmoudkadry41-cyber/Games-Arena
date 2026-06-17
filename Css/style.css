@@ -55,7 +55,7 @@ z-index: 900;
 /* START OF HEADER SECTION */
 header{
 
-    background: rgba(0, 0, 0, 0.842) url(/Images/hero-bg.jpg);
+    background: rgba(0, 0, 0, 0.842) url(../Images/hero-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: multiply;
